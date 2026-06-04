@@ -29,3 +29,12 @@
 - Automation Engineering
 - AI Architecture
 - Production Readiness Planning
+
+## Repository Structure
+
+- Architecture Documentation
+- System Diagrams
+- Deployment Documentation
+- Workflow Examples
+- Operational Runbooks
+- Compliance Framework
