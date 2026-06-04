@@ -1,0 +1,22 @@
+# API Flow Examples
+
+## Example: CRM Update Flow
+
+1. AI identifies customer intent.
+2. Business logic validates the request.
+3. Webhook sends structured payload.
+4. CRM record is updated.
+5. Slack alert is sent.
+6. Audit log is created.
+
+## Example Request
+
+```http
+POST /webhooks/customer-action
+Content-Type: application/json
+Authorization: Bearer <token>
+{
+  "customer_email": "jane@example.com",
+  "action": "crm_update",
+  "status": "completed"
+}
