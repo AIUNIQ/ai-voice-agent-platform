@@ -1,11 +1,4 @@
 
----
-
-### 2. `VOICE_PIPELINE_DIAGRAM.md`
-
-Paste this:
-
-```markdown
 # Voice Pipeline Diagram
 
 ```mermaid
