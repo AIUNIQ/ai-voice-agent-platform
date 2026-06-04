@@ -23,3 +23,9 @@
 - Scalability
 - Security
 - Operational automation
+
+Monitoring
+Logs
+Health checks
+Error tracking
+Workflow validation
