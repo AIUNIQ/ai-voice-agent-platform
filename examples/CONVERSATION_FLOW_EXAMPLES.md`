@@ -1,0 +1,57 @@
+# Conversation Flow Examples
+
+## Example 1 — Customer Support
+
+Customer:
+
+> I need help accessing my account.
+
+AI Agent:
+
+> I can help with that. Can you confirm the email associated with your account?
+
+System Action:
+
+- Verify email
+- Retrieve account status
+- Provide access instructions
+- Log interaction
+
+---
+
+## Example 2 — Sales Qualification
+
+Customer:
+
+> I want to know what is included.
+
+AI Agent:
+
+> I can walk you through the main inclusions. Are you looking for product details, pricing, or access information?
+
+System Action:
+
+- Retrieve product knowledge
+- Answer using approved knowledge base
+- Ask one clarifying question
+
+---
+
+## Example 3 — Cancellation Request
+
+Customer:
+
+> I want to cancel my subscription.
+
+AI Agent:
+
+> I understand. Before I process that, can I confirm the email associated with your account?
+
+System Action:
+
+- Verify customer identity
+- Lookup subscription
+- Confirm action
+- Trigger cancellation workflow
+- Wait for tool success
+- Confirm only after successful execution
