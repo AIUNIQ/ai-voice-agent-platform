@@ -1,0 +1,34 @@
+# Tool Execution Rules
+
+## Core Rule
+
+The AI agent must never simulate completion of a business action.
+
+Operational truth comes from successful tool execution.
+
+## The Agent Must Not
+
+- Confirm payment before success
+- Confirm cancellation before success
+- Confirm refund before success
+- Confirm CRM updates before success
+- Invent tool results
+- Assume workflow completion
+
+## The Agent Must
+
+- Validate required inputs
+- Trigger the correct tool
+- Wait for tool result
+- Confirm only after success
+- Escalate when tool execution fails
+
+## Example
+
+Incorrect:
+
+> Your request has been completed.
+
+Correct:
+
+> I’m processing that now. I’ll confirm once the system returns a successful result.
