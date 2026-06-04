@@ -14,3 +14,6 @@ System Response:
   "error": "missing_customer_email",
   "next_step": "request_email"
 }
+Agent Behavior:
+
+I can help with that. What email is connected to your account?
